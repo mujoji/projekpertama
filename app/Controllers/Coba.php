@@ -11,6 +11,6 @@ class Coba extends BaseController
 
     public function about()
     {
-        echo "Hallo, $this->nama.";
+        //echo "Hallo, $this->nama.";
     }
 }

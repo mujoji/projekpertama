@@ -3,14 +3,10 @@
 namespace App\Controllers;
 
 
-class Pages extends BaseController
+class About extends BaseController
 {
-    public function index()
-    {
-        return 'This is the Page Controller -> Index Function';
-    }
-
-    public function showme($page = 'home')
+    
+    public function index($page = 'about')
     {
         // check if the view exist
         if(!is_file(APPPATH.'views/pages/'.$page.'.php')){
